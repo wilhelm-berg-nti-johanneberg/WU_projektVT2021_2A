@@ -1,1 +1,184 @@
-<!--todo-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon_cdice.png" type="image/png">
+</head>
+<body>
+    <div id="new_user_menu_background">
+        <div id="new_user_menu">
+        <nav id="color_mode_nav">
+            <ul id="color_mode_ul">
+                <li><h1 id="color_mode_h1"><strong>WELCOME</strong></h1></li>
+                <li><p id="color_mode_p"><strong>PLEASE CHOOSE YOUR PREFERED COLOR THEME</strong></p></li>
+                <li><button type="radio" name="r" id="cmn_button_01" checked><img class="color_mode_img" src="img/darkMode.png" alt="Example of dark color mode"></button>
+                <button type="radio" name="r" id="cmn_button_02"><img class="color_mode_img" src="img/lightMode.png" alt="Example of light color mode"></button>
+                <button type="radio" name="r" id="cmn_button_03"><img class="color_mode_img" src="img/auroraMode.png" alt="Example of aurora color mode"></button></li>
+                <li><button class="std_button" id="cmn_done">DONE</button></li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+    <form action="" method="" class="overlay" id="sign_up">
+        <div class="style_purpose"><img src="img/cdice_logo_image.png" alt="The CDICE logo"><h1><strong>SIGN UP</strong></h1><button type="button" class="close" id="close_sign_up"></button></div>
+        <ul id="sign_up_ul">
+            <li id="li1"><input type="text" name="" placeholder="*First Name" class="small_input" id="first_name">
+            <input type="text" name="" placeholder="*Last Name" class="small_input" id="last_name"></li>
+            <li><input type="text" name="" placeholder="*Display Name" class="b_input" id="nickname"></li>
+            <li><input type="email" name="" placeholder="*Email" class="b_input" id="email"></li>
+            <li><input type="password" name="" placeholder="*Password" class="b_input" id="password"></li>
+            <li><div class="style_line"></div></li>
+            <li><button type="submit" class="std_button" id="sign_up_button"><strong>CREATE ACCOUNT</strong></button></li>
+            <li><p class="info_p">Have a CDICE account?</p><button type="button" id="sign_up_sign_in_button"><strong>SIGN IN</strong></button></li>
+        </ul>
+    </form>
+    <form action="" method="" class="overlay" id="sign_in">
+        <div class="style_purpose"><img src="img/cdice_logo_image.png" alt="The CDICE logo"><h1><strong>SIGN IN</strong></h1><button type="button" class="close" id="close_sign_in"></button></div>
+        <ul id="sign_in_ul">
+            <li><input type="email" name="" placeholder="Email" class="b_input" id="sign_in_email"></li>
+            <li><input type="password" name="" placeholder="Password" class="b_input" id="sign_in_password"></li>
+            <li><div class="style_line"></div></li>
+            <li><button type="submit" class="std_button" id="sign_in_button"><strong>SIGN IN</strong></button></li>
+            <li><p class="info_p">Haven't got a CDICE account?</p><button type="button" id="sign_in_sign_up_button"><strong>SIGN UP</strong></button></li>
+        </ul>
+    </form>
+    <div class="site_wrapper" id="index_site_wrapper">
+        <nav id="fixed_nav">
+            <a href="" id="cdice_logo_name">
+            <img id="cdice_logo" src="img/cdice_logo_image.png" alt="The CDICE logo">
+            <h1 id="cdice_name">CDICE</h1>
+            </a>
+            <ul id="fixed_ul">
+                <li>
+                    <strong class="strong_dd" id="media_strong"><a href="" class="nav_a">MEDIA</a></strong>
+                    <div class="filler">
+                    <ul class="dropdown" id="media_dd">
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">VIDEOS</a></li>
+                        <li><a href="">LIVESTREAMS</a></li>
+                        <li><a href="">MY CHANNEL</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <strong class="strong_dd" id="events_strong"><a href="" class="nav_a">EVENTS</a></strong>
+                    <div class="filler">
+                    <ul class="dropdown" id="events_dd">
+                        <li><a href="">CURRENT EVENTS</a></li>
+                        <li><a href="">UPCOMING EVENTS</a></li>
+                        <li><a href="">TOURNAMENTS</a></li>
+                        <li><a href="">REWARDS</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <strong class="strong_dd" id="learning_strong"><a href="" class="nav_a">LEARNING</a></strong>
+                    <div class="filler">
+                    <ul class="dropdown" id="learning_dd">
+                        <li><a href="">GUIDES</a></li>
+                        <li><a href="">TASKS</a></li>
+                        <li><a href="">GROUPS</a></li>
+                        <li><a href="">REWARDS</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <strong class="strong_dd" id="connect_strong"><a href="" class="nav_a">CONNECT</a></strong>
+                    <div class="filler">
+                    <ul class="dropdown" id="connect_dd">
+                        <li><a href="">PROFILES</a></li>
+                        <li><a href="">COMUNITIES</a></li>
+                        <li><a href="">TEXT CHAT</a></li>
+                        <li><a href="">VOICE CHAT</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <button class="std_button" id="sign_in_menu"><strong>SIGN IN</strong></button>
+                <div class="hover_div"><img src="img/Profile_icon_light.png" alt="Profile" id="profile_img">
+                    <div id="profile_filler">
+                        <ul id="profile_dropdown">
+                            <ul id="main_menu_dp">
+                                <li><button type="button" id="profile_button"><img src="img/Profile_icon_light.png" alt="Profile picture" id="big_profile_img"><h1>SIGN IN</h1></button></li>
+                                <li><div class="style_line" id="profile_line"></div></li>
+                                <li><button type="button" id="color_theme_button"><img src="img/visning_icon2.png" alt="Color Theme icon" id="color_theme_img"><strong>COLOR THEME</strong></button></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+            <div class="burger_menu_btn">
+                <div class="burger_menu_btn_inner"></div>
+            </div>
+        </nav>
+        <main id="index_main">
+            <ul>
+            <li><img id="main_cdice_logo" src="img/cdice_logo_image.png" alt="The CDICE logo"></li>
+            <li><h1 class="main_h1"><strong>CREATE AN ACCOUNT ON CDICE</strong></h1></li>
+            <li><p class="main_p"><strong>TO CHAT, CONNECT AND UPPLOAD VIDEOS, FOR FREE</strong></p></li>
+            <li><button class="std_button" id="sign_up_main_button" ><strong>CREATE ACCOUNT</strong></button></li>
+            </ul>
+        </main>
+        <nav class="s_nav" id="small_nav01"><img src="img/MediaShowcaseSectionSized.png" alt=""></nav>
+        <nav class="s_nav" id="small_nav02"><img src="" alt=""></nav>
+        <nav class="s_nav" id="small_nav03"><img src="" alt=""></nav>
+        <section class="normal_sized_sec">
+            <h1 id="normal_sized_sec_h1"><strong>UPLOAD A VIDEO OR LIVESTREAM TODAY</strong></h1>
+            <h2 id="normal_sized_sec_h2"><strong>OR WATCH OTHERS CONTENT AND RATE, SUPPORT AND SUBSCRIBE TO THEM</strong></h2>
+            <a href="media.html"><button class="std_button" id="normal_sized_button"><strong>GO TO MEDIA</strong></button></a>
+        </section>
+        <article id="index_article">
+            <article id="ar_1"><h1 class="ar_h1">HOW TO UPLOAD MEDIA TO CDICE</h1><p id="ar_1_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, ipsa illo? Pariatur officiis nulla animi fugiat, sed harum quaerat obcaecati mollitia cupiditate eius modi possimus, dolorem magni eaque iure, laborum blanditiis vel doloremque odio velit quidem? Cupiditate sequi quo possimus dolores veniam vitae doloribus ipsum porro dicta voluptate adipisci tempore est delectus tempora saepe earum iure amet nam quaerat facere, excepturi minima. Dolores voluptates consequuntur, sed a reiciendis, autem cupiditate culpa, saepe expedita tempora odio optio. Consequatur corporis, labore in officiis hic impedit aliquam voluptatibus reprehenderit pariatur quaerat libero, inventore ab aliquid temporibus mollitia tempora sed numquam, assumenda porro. Aliquid minus et ea mollitia! Quisquam eveniet illum, consectetur illo deserunt quis enim, sit sapiente aliquam, accusantium ullam sed. Ab, voluptatem! Amet asperiores magni iure labore suscipit odio nulla, placeat mollitia, nam corrupti quae molestiae est! Nam earum quas sit molestias. Consequuntur dolorem impedit, dignissimos dicta cumque magni! Nemo voluptas odit doloremque in! Officiis magni ad suscipit corrupti modi ducimus alias unde fugiat, necessitatibus ipsam laudantium est, minus neque fugit. Cumque, pariatur necessitatibus aliquam ad deleniti est quo sint voluptas illo dolore dolorum provident praesentium. Deleniti vel consectetur sit ducimus vero soluta quas voluptas accusantium illum animi magni nulla qui facere numquam impedit quod repellat libero illo cum quibusdam, iusto praesentium, aperiam hic assumenda? Fugit, temporibus quia!</p></article>
+            <article id="ar_2"><h1 class="ar_h1">UPCOMING EVENTS AND TOURNAMENTS</h1><p id="ar_2_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, vel quas fuga beatae, voluptates iure soluta, autem ut nisi in velit quisquam architecto harum necessitatibus laboriosam quod. Minus praesentium dolore repellendus, dolores ducimus, quo reprehenderit voluptatem magnam odit laboriosam, laborum excepturi eveniet at aut dolorem voluptates consequuntur odio sapiente? Provident tempore neque, dicta, in delectus obcaecati ut illo maxime dolor optio unde eum iure minus architecto. Ipsam vitae impedit provident eligendi laboriosam voluptatibus eveniet pariatur error dicta totam deleniti, nam est earum vero, aspernatur tenetur molestias. Aperiam laudantium nam ad officia dolores fugit optio, placeat quidem ex nobis consequuntur exercitationem modi maiores labore perspiciatis saepe voluptas nesciunt dignissimos sunt, architecto consectetur atque.</p></article>
+            <article id="ar_3"><h1 class="ar_h1">PERSONAL PAGE - LAYOUT AND OTHER TIPS</h1><p id="ar_3_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat sequi quasi laudantium soluta et atque, beatae modi assumenda! Sed, quae. Harum, inventore maiores! Quaerat labore quo rem sed aliquid molestias, voluptatem incidunt ipsa, facilis asperiores quisquam iste obcaecati eum quod sapiente minus iure officiis ex? Sit non illo quis, necessitatibus molestiae commodi fuga et nam officiis sint id laudantium provident velit recusandae. Quae, tenetur? Sed laboriosam architecto doloremque excepturi repellat repudiandae saepe explicabo? Dignissimos eum et temporibus corrupti deleniti magnam soluta veritatis nihil fugit dolor necessitatibus molestias, blanditiis debitis quam laboriosam ab maxime quas, minus expedita porro est nesciunt itaque? Cumque neque, excepturi sapiente illum voluptate delectus voluptates. Placeat voluptatum voluptatibus, assumenda sequi molestias reprehenderit quod, nihil architecto ipsa alias quos vel! Voluptate quo praesentium asperiores atque nulla culpa dolores. Similique maiores officiis voluptas vel quo labore quia quae incidunt possimus omnis tenetur, velit sit quod doloribus facilis odio quasi id amet error? Doloremque officiis recusandae quibusdam perspiciatis fuga ipsa laboriosam nostrum, debitis fugit expedita! Odit nobis officiis debitis possimus dolorem illo magni soluta ea repellat magnam. Sed obcaecati neque, cumque voluptas facere iure, similique voluptatem labore tenetur exercitationem aut accusamus odio cupiditate ipsam. Id neque est error quaerat. Enim, magnam labore velit dolore perferendis placeat. Iste eos eum corporis odit quaerat dolorum adipisci et suscipit ipsa autem voluptatibus neque, incidunt blanditiis perferendis magni.</p></article>
+        </article>
+        <footer id="general_footer">
+            <section id="footer_sec01">
+                <ul>
+                    <li><h1><strong>MEDIA</strong></h1></li>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">VIDEOS</a></li>
+                    <li><a href="">LIVESTREAMS</a></li>
+                    <li><a href="">MY CHANNEL</a></li>
+                </ul>
+                <ul>
+                    <li><h1><strong>EVENTS</strong></h1></li>
+                    <li><a href="">CURRENT EVENTS</a></li>
+                    <li><a href="">UPCOMING EVENTS</a></li>
+                    <li><a href="">TOURNAMENTS</a></li>
+                    <li><a href="">REWARDS</a></li>
+                </ul>
+                <ul>
+                    <li><h1><strong>LEARNING</strong></h1></li>
+                    <li><a href="">GUIDES</a></li>
+                    <li><a href="">TASKS</a></li>
+                    <li><a href="">GROUPS</a></li>
+                    <li><a href="">REWARDS</a></li>
+                </ul>
+                <ul>
+                    <li><h1><strong>CONNECT</strong></h1></li>
+                    <li><a href="">PROFILES</a></li>
+                    <li><a href="">COMUNITIES</a></li>
+                    <li><a href="">TEXT CHAT</a></li>
+                    <li><a href="">VOICE CHAT</a></li>
+                </ul>
+            </section>
+            <section id="footer_sec02">
+                <ul>
+                    <li><a href=""><img src="img/youtube_icon.png" alt="" class="icon"></a></li>
+                    <li><a href=""><img src="img/discord_icon.png" alt="" class="icon" id="dc_icon"></a></li>
+                    <li><a href=""><img src="img/facebook_icon.png" alt="" class="icon"></a></li>
+                    <li><a href=""><img src="img/twitter_icon.png" alt="" class="icon"></a></li>
+                    <li><a href=""><img src="img/instagram_icon.png" alt="" class="icon"></a></li>
+                </ul>
+            </section>
+            <section id="footer_sec03"></section>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/indexScript.js"></script>
+</body>
+</html>
