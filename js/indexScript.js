@@ -37,5 +37,7 @@ arOpenbtn3.addEventListener('click', () => {
     }
 });
 
+// Main
+const openButtonMain = document.querySelector('#sign_up_main_button');
 
-
+openButtonMain.addEventListener('click', openSignUpMenu);

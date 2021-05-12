@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon_cdice.png" type="image/png">
+</head>
+<body>
+    <div id="new_user_menu_background">
+        <div id="new_user_menu">
+        <nav id="color_mode_nav">
+            <ul id="color_mode_ul">
+                <li><h1 id="color_mode_h1"><strong>WELCOME</strong></h1></li>
+                <li><p id="color_mode_p"><strong>PLEASE CHOOSE YOUR PREFERED COLOR THEME</strong></p></li>
+                <li><button type="radio" name="r" id="cmn_button_01" checked><img class="color_mode_img" src="img/darkMode.png" alt="Example of dark color mode"></button>
+                <button type="radio" name="r" id="cmn_button_02"><img class="color_mode_img" src="img/lightMode.png" alt="Example of light color mode"></button>
+                <button type="radio" name="r" id="cmn_button_03"><img class="color_mode_img" src="img/auroraMode.png" alt="Example of aurora color mode"></button></li>
+                <li><button class="std_button" id="cmn_done">DONE</button></li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+    <form action="" method="" class="overlay" id="sign_up">
+        <div class="style_purpose"><img src="img/cdice_logo_image.png" alt="The CDICE logo"><h1><strong>SIGN UP</strong></h1><button type="button" class="close" id="close_sign_up"></button></div>
+        <ul id="sign_up_ul">
+            <li id="li1"><input type="text" name="" placeholder="*First Name" class="small_input" id="first_name">
+            <input type="text" name="" placeholder="*Last Name" class="small_input" id="last_name"></li>
+            <li><input type="text" name="" placeholder="*Display Name" class="b_input" id="nickname"></li>
+            <li><input type="email" name="" placeholder="*Email" class="b_input" id="email"></li>
+            <li><input type="password" name="" placeholder="*Password" class="b_input" id="password"></li>
+            <li><div class="style_line"></div></li>
+            <li><button type="submit" class="std_button" id="sign_up_button"><strong>CREATE ACCOUNT</strong></button></li>
+            <li><p class="info_p">Have a CDICE account?</p><button type="button" id="sign_up_sign_in_button"><strong>SIGN IN</strong></button></li>
+        </ul>
+    </form>
+    <form action="" method="" class="overlay" id="sign_in">
+        <div class="style_purpose"><img src="img/cdice_logo_image.png" alt="The CDICE logo"><h1><strong>SIGN IN</strong></h1><button type="button" class="close" id="close_sign_in"></button></div>
+        <ul id="sign_in_ul">
+            <li><input type="email" name="" placeholder="Email" class="b_input" id="sign_in_email"></li>
+            <li><input type="password" name="" placeholder="Password" class="b_input" id="sign_in_password"></li>
+            <li><div class="style_line"></div></li>
+            <li><button type="submit" class="std_button" id="sign_in_button"><strong>SIGN IN</strong></button></li>
+            <li><p class="info_p">Haven't got a CDICE account?</p><button type="button" id="sign_in_sign_up_button"><strong>SIGN UP</strong></button></li>
+        </ul>
+    </form>
+    <div id="mobile_dropdown" class="mobile_dropdown_display">
+        <ul>
+            <li><h1><strong>MEDIA</strong></h1></li>
+            <li><a href="media_home.html">HOME</a></li>
+            <li><a href="media_videos.html">VIDEOS</a></li>
+            <li><a href="media_livestreams.html">LIVESTREAMS</a></li>
+            <li><a href="user_account.html">MY CHANNEL</a></li>
+        </ul>
+        <ul>
+            <li><h1><strong>EVENTS</strong></h1></li>
+            <li><a href="event_current.html">CURRENT EVENTS</a></li>
+            <li><a href="event_upcoming.html">UPCOMING EVENTS</a></li>
+            <li><a href="event_tournament.html">TOURNAMENTS</a></li>
+            <li><a href="event_reward.html">REWARDS</a></li>
+        </ul>
+        <ul>
+            <li><h1><strong>LEARNING</strong></h1></li>
+            <li><a href="learning_guide.html">GUIDES</a></li>
+            <li><a href="learning_task.html">TASKS</a></li>
+            <li><a href="learning_group.html">GROUPS</a></li>
+            <li><a href="learning_reward.html">REWARDS</a></li>
+        </ul>
+        <ul>
+            <li><h1><strong>CONNECT</strong></h1></li>
+            <li><a href="connect_profile.html">PROFILES</a></li>
+            <li><a href="connect_comunities.html">COMUNITIES</a></li>
+            <li><a href="connect_textchat.html">TEXT CHAT</a></li>
+            <li><a href="connect_voicechat.html">VOICE CHAT</a></li>
+        </ul>
+    </div>
+    <nav id="fixed_nav">
+        <a href="index.html" id="cdice_logo_name">
+        <img id="cdice_logo" src="img/cdice_logo_image.png" alt="The CDICE logo">
+        <h1 id="cdice_name">CDICE</h1>
+        </a>
+        <ul id="fixed_ul">
+            <li>
+                <strong class="strong_dd" id="media_strong"><a href="media.html" class="nav_a">MEDIA</a></strong>
+                <div class="filler">
+                <ul class="dropdown" id="media_dd">
+                    <li><a href="media_home.html">HOME</a></li>
+                    <li><a href="media_videos.html">VIDEOS</a></li>
+                    <li><a href="media_livestreams.html">LIVESTREAMS</a></li>
+                    <li><a href="user_account.html">MY CHANNEL</a></li>
+                </ul>
+                </div>
+            </li>
+            <li>
+                <strong class="strong_dd" id="events_strong"><a href="event.html" class="nav_a">EVENTS</a></strong>
+                <div class="filler">
+                <ul class="dropdown" id="events_dd">
+                    <li><a href="event_current.html">CURRENT EVENTS</a></li>
+                    <li><a href="event_upcoming.html">UPCOMING EVENTS</a></li>
+                    <li><a href="event_tournament.html">TOURNAMENTS</a></li>
+                    <li><a href="event_reward.html">REWARDS</a></li>
+                </ul>
+                </div>
+            </li>
+            <li>
+                <strong class="strong_dd" id="learning_strong"><a href="learning.html" class="nav_a">LEARNING</a></strong>
+                <div class="filler">
+                <ul class="dropdown" id="learning_dd">
+                    <li><a href="learning_guide.html">GUIDES</a></li>
+                    <li><a href="learning_task.html">TASKS</a></li>
+                    <li><a href="learning_group.html">GROUPS</a></li>
+                    <li><a href="learning_reward.html">REWARDS</a></li>
+                </ul>
+                </div>
+            </li>
+            <li>
+                <strong class="strong_dd" id="connect_strong"><a href="connect.html" class="nav_a">CONNECT</a></strong>
+                <div class="filler">
+                <ul class="dropdown" id="connect_dd">
+                    <li><a href="connect_profile.html">PROFILES</a></li>
+                    <li><a href="connect_comunities.html">COMUNITIES</a></li>
+                    <li><a href="connect_textchat.html">TEXT CHAT</a></li>
+                    <li><a href="connect_voicechat.html">VOICE CHAT</a></li>
+                </ul>
+                </div>
+            </li>
+            <button class="std_button" id="sign_in_menu"><strong>SIGN IN</strong></button>
+            <div class="hover_div"><img src="img/Profile_icon_light.png" alt="Profile" id="profile_img">
+                <div id="profile_filler">
+                    <ul id="profile_dropdown">
+                        <ul id="main_menu_dp">
+                            <li><button type="button" id="profile_button"><img src="img/Profile_icon_light.png" alt="Profile picture" id="big_profile_img"><h1>SIGN IN</h1></button></li>
+                            <li><div class="style_line" id="profile_line"></div></li>
+                            <li><button type="button" id="color_theme_button"><img src="img/visning_icon2.png" alt="Color Theme icon" id="color_theme_img"><strong>COLOR THEME</strong></button></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </ul>
+        <div class="burger_menu_btn">
+            <div class="burger_menu_btn_inner"></div>
+        </div>
+    </nav>
+    <nav id="fixed_side_nav">
+        <button id="media_home"></button>
+        <h1><strong>HOME</strong></h1>
+        <button id="media_subs"></button>
+        <h1><strong>SUBS...</strong></h1>
+        <button id="media_libary"></button>
+        <h1><strong>LIBARY</strong></h1>
+        <button id="media_account"><img src="img/Profile_icon_light.png" alt=""></button>
+        <h1><strong>ACCOUNT</strong></h1>
+    </nav>
+    <div class="site_wrapper" id="overview_site_wrapper">
+        <main id="media_main">
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+            <div class="media_cards"><img src="img/thumbnailnr1.png" alt="The thumbnail"><h1>Title</h1><h2>Views</h2><h3>Likes</h3><h4>UploadDate</h4><h5><img src="img/Profile_icon_light.png" alt="Profile picture">Author</h5></div>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

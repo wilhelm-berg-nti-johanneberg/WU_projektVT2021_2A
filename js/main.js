@@ -49,13 +49,13 @@ function changeColorModeToAurora() {
 
 function closeMenu() {
     document.getElementById('new_user_menu_background').style.display = 'none';
-    document.getElementById('index_site_wrapper').style.display = 'grid';
+    document.querySelector('.site_wrapper').style.display = 'grid';
     localStorage.setItem('theme', 'true');
 };
 
 function openMenu() {
     document.getElementById('new_user_menu_background').style.display = 'flex';
-    document.getElementById('index_site_wrapper').style.display = 'none';
+    document.querySelector('.site_wrapper').style.display = 'none';
 };
 
 if (localStorage.getItem('theme')) {
@@ -81,11 +81,10 @@ root.querySelector('#color_theme_button').addEventListener('click', openMenu);
 // Account Related
 
 // --General
-const indexWrapperBrightness = document.getElementById('index_site_wrapper').style;
+const indexWrapperBrightness = document.querySelector('.site_wrapper').style;
 
 // --Sign Up
 const closeButton = document.querySelector('#close_sign_up');
-const openButtonMain = document.querySelector('#sign_up_main_button');
 const displayStyle = document.getElementById('sign_up');
 
 function closeSignUpMenu() {
@@ -99,7 +98,6 @@ function openSignUpMenu() {
 };
 
 closeButton.addEventListener('click', closeSignUpMenu);
-openButtonMain.addEventListener('click', openSignUpMenu);
 
 // --Sign In [SnIn = Sign In]
 const closeButtonSnIn = document.querySelector('#close_sign_in');
@@ -141,14 +139,17 @@ switchSnIntoSnUp.addEventListener('click', switchMenuSnIn);
 // Burger Menu
 
 const menuBurgerBtn = document.querySelector('.burger_menu_btn');
+const burgerMenu = document.getElementById('mobile_dropdown');
 let burgerBtnOpen = false;
 
 menuBurgerBtn.addEventListener('click', () => {
     if (!burgerBtnOpen) {
         menuBurgerBtn.classList.add('burger_menu_open');
+        burgerMenu.classList.add('menu_burger_open');
         burgerBtnOpen = true;
     } else {
         menuBurgerBtn.classList.remove('burger_menu_open');
+        burgerMenu.classList.remove('menu_burger_open');
         burgerBtnOpen = false;
     }
 });
