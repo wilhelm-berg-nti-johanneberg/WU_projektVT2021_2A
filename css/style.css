@@ -1011,6 +1011,37 @@ button[name="r"] {
     height: 15vw;
 }
 
+/* Learning --Guide */
+
+#guide_site_wrapper {
+    display: flex;
+    padding-top: 55px;
+    background: var(--secondary-color);
+}
+
+#guide_site_wrapper article {
+    width: 100vw;
+}
+
+.guide_a {
+    display: block;
+    background: var(--extra-color);
+    margin-top: 10px;
+    border-top: solid 2px var(--card-border);
+    border-bottom: solid 2px var(--card-border);
+    cursor: pointer;
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#guide_site_wrapper article a:hover h1 {
+    margin-left: 25px;
+    transition: all 0.5s ease-in-out;
+    color: rgba(5, 102, 145, 1);
+}
 /* Media Queries */
 
 @media screen and (max-width: 900px) {
@@ -1189,6 +1220,17 @@ button[name="r"] {
 
     .event_ar {
         font-size: 2vh;
+    }
+
+    #account_content_section img {
+        height: 50px;
+        width: 50px;
+        transform: translateY(-20px);
+    }
+
+    #account_content_section h1,
+    #account_content_section button {
+        font-size: 2vw;
     }
 }
 
