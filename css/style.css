@@ -1209,6 +1209,14 @@ button[name="r"] {
         width: 85vw;
     }
 
+    .style_purpose {
+        justify-content: center;
+    }
+
+    .style_purpose img {
+        margin-right: 20px;
+    }
+
     .cover_a p {
         transform: rotate(0);
     }
